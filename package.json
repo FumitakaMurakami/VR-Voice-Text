@@ -1,0 +1,17 @@
+{
+  "name": "image_ai_sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node start.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aframe-japanese-font": "^0.1.4",
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2"
+  }
+}

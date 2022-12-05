@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  	<head>
+    	<script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+		<script src="./resource/js/index.js"></script>
+	</head>
+  	<body>
+		<!-- <button id="btn">start</button>
+		<div id="content"></div> -->
+    	<a-scene>
+			<a-entity cursor="rayOrigin: mouse"></a-entity>
+        	<a-text
+				id="result-text"
+    			value="ブロッククリックで録音開始"
+    			font=".\node_modules\aframe-japanese-font\fonts\noto-sans-cjk-jp\noto-sans-cjk-jp-msdf.json"
+    			font-image=".\node_modules\aframe-japanese-font\fonts\noto-sans-cjk-jp\noto-sans-cjk-jp-msdf.png"
+    			negate="false"
+    			scale="2 2 1"
+    			position="-3 3 -4"
+				color="red"
+  			></a-text>
+			<a-entity position="0 0 -4" geometry="primitive:box;" material="color: red" scale="1 1 1" speech-start>
+			</a-entity>
+    	</a-scene>
+  	</body>
+</html>
