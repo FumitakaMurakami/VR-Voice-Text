@@ -1,0 +1,1 @@
+const gpt = require('./chatgpt');
